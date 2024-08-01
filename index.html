@@ -1,0 +1,198 @@
+<html lang="en">
+    <head>
+        <title>Input types </title>
+        <link rel="stylesheet" type="text/css" href="style.css" >
+    </head>
+    <body>
+        <div class = "allInputType">
+            
+          
+                <form class="formBlock" action="">
+                    <h1 class="titleHead">Survey Form</h1>
+                    <div class="formSection nameSection">
+                        <div class="formInput">
+                            <label class="bold" for="fname">First Name: <span class="require">*</span></label>
+                            <input class="inputText" placeholder="Enter first name" type="text" name="" id="lname" required>
+                         </div>
+                         <div class="ml-20px formInput lastNameBlock">
+                             <label  class="bold" for="lname">Last Name:</label>
+                             <input class="inputText" placeholder="Enter last name" type="text" name="" id="lname">
+                          </div>
+                    </div>
+                    <div class="formSection emailBlock formInput">
+                      
+                            <label  class="bold" for="email">Email: <span class="require">*</span></label>
+                            <input class="inputText" placeholder="Enter your email" type="text" name="" id="email" required>
+                     
+                    </div>
+                     <div class="ratingBlock formSection formInput">
+                        <label  class="bold" for="email">Your Experience</label>
+                        <div class="rating">
+                            <input type="radio" id="star5" name="rating" value="5"><label for="star5"></label>
+                            <input type="radio" id="star4" name="rating" value="4"><label for="star4"></label>
+                            <input type="radio" id="star3" name="rating" value="3"><label for="star3"></label>
+                            <input type="radio" id="star2" name="rating" value="2"><label for="star2"></label>
+                            <input type="radio" id="star1" name="rating" value="1"><label for="star1"></label>
+                          </div>
+                          
+                     </div>
+                     <div class="formSection tableBlock formInput">
+                        <label  class="bold" for="email">How Satisfied are you with</label>
+                        <table>
+                            <tr>
+                              <th></th>
+                              <th>Very Unsatisfied</th>
+                              <th>Unsatisfied</th>
+                              <th>Neutral</th>
+                              <th>Satisfied</th>
+                              <th>Very Satisfied</th>
+                            </tr>
+                            <tr>
+                              <td>Purchase</td>
+                              <td> 
+                                <input class="radio-input" id="vUnsatisfy" type="radio" name="purchase" value="vUnsatisfy">  
+                              </td>
+                              <td> 
+                                <input class="radio-input" id="unsatisfy" type="radio" name="purchase" value="unsatisfy">  
+                              </td>
+                              <td> 
+                                <input class="radio-input" id="neutral" type="radio" name="purchase" value="neutral">  
+                              </td>
+                              <td> 
+                                <input class="radio-input" id="satisfy" type="radio" name="purchase" value="satisfy">  
+                              </td>
+                              <td> 
+                                <input class="radio-input" id="vsatisfy" type="radio" name="purchase" value="vsatisfy">  
+                              </td>
+                            </tr>
+                            <tr>
+                                <td>Service</td>
+                                <td> 
+                                    <input class="radio-input" id="vUnsatisfy" type="radio" name="service" value="vUnsatisfy">  
+                                  </td>
+                                  <td> 
+                                    <input class="radio-input" id="unsatisfy" type="radio" name="service" value="unsatisfy">  
+                                  </td>
+                                  <td> 
+                                    <input class="radio-input" id="neutral" type="radio" name="service" value="neutral">  
+                                  </td>
+                                  <td> 
+                                    <input class="radio-input" id="satisfy" type="radio" name="service" value="satisfy">  
+                                  </td>
+                                  <td> 
+                                    <input class="radio-input" id="vsatisfy" type="radio" name="service" value="vsatisfy">  
+                                  </td>
+                              </tr>
+                              <tr>
+                                <td>Company Overall</td>
+                                <td> 
+                                    <input class="radio-input" id="vUnsatisfy" type="radio" name="company" value="vUnsatisfy">  
+                                  </td>
+                                  <td> 
+                                    <input class="radio-input" id="unsatisfy" type="radio" name="company" value="unsatisfy">  
+                                  </td>
+                                  <td> 
+                                    <input class="radio-input" id="neutral" type="radio" name="company" value="neutral">  
+                                  </td>
+                                  <td> 
+                                    <input class="radio-input" id="satisfy" type="radio" name="company" value="satisfy">  
+                                  </td>
+                                  <td> 
+                                    <input class="radio-input" id="vsatisfy" type="radio" name="company" value="vsatisfy">  
+                                  </td>
+                              </tr>                           
+                          </table>
+                     </div>
+                     <div class="formSection tableBlock formInput">
+                        <label  class="bold" for="email">How Likely are you to</label>
+                        <table>
+                            <tr>
+                              <th></th>
+                              <th>Very Unsatisfied</th>
+                              <th>Unsatisfied</th>
+                              <th>Neutral</th>
+                              <th>Satisfied</th>
+                              <th>Very Satisfied</th>
+                            </tr>
+                            <tr>
+                              <td>Buy from us again</td>
+                              <td> 
+                                <input class="radio-input" id="vUnsatisfy" type="radio" name="buy" value="vUnsatisfy">  
+                              </td>
+                              <td> 
+                                <input class="radio-input" id="unsatisfy" type="radio" name="buy" value="unsatisfy">  
+                              </td>
+                              <td> 
+                                <input class="radio-input" id="neutral" type="radio" name="buy" value="neutral">  
+                              </td>
+                              <td> 
+                                <input class="radio-input" id="satisfy" type="radio" name="buy" value="satisfy">  
+                              </td>
+                              <td> 
+                                <input class="radio-input" id="vsatisfy" type="radio" name="buy" value="vsatisfy">  
+                              </td>
+                            </tr>
+                            <tr>
+                                <td>Recommand our product to others</td>
+                                <td> 
+                                    <input class="radio-input" id="vUnsatisfy" type="radio" name="product" value="vUnsatisfy">  
+                                  </td>
+                                  <td> 
+                                    <input class="radio-input" id="unsatisfy" type="radio" name="product" value="unsatisfy">  
+                                  </td>
+                                  <td> 
+                                    <input class="radio-input" id="neutral" type="radio" name="product" value="neutral">  
+                                  </td>
+                                  <td> 
+                                    <input class="radio-input" id="satisfy" type="radio" name="product" value="satisfy">  
+                                  </td>
+                                  <td> 
+                                    <input class="radio-input" id="vsatisfy" type="radio" name="product" value="vsatisfy">  
+                                  </td>
+                              </tr>
+                              <tr>
+                                <td>Recommand our Company to others</td>
+                                <td> 
+                                    <input class="radio-input" id="vUnsatisfy" type="radio" name="rcompany" value="vUnsatisfy">  
+                                  </td>
+                                  <td> 
+                                    <input class="radio-input" id="unsatisfy" type="radio" name="rcompany" value="unsatisfy">  
+                                  </td>
+                                  <td> 
+                                    <input class="radio-input" id="neutral" type="radio" name="rcompany" value="neutral">  
+                                  </td>
+                                  <td> 
+                                    <input class="radio-input" id="satisfy" type="radio" name="rcompany" value="satisfy">  
+                                  </td>
+                                  <td> 
+                                    <input class="radio-input" id="vsatisfy" type="radio" name="rcompany" value="vsatisfy">  
+                                  </td>
+                              </tr>                           
+                          </table>
+                     </div>
+                     <div class="formSection commentBlock  formInput">
+                      
+                        <label  class="bold" for="email">Additional Comments or Suggestions <span class="require">*</span></label>
+                         <textarea  class="inputText" placeholder="Comments"  name="" id="" required></textarea>
+                       
+                 
+                    </div>
+                     <div>
+                        <input class="submitBtn" type="submit" name="" id="submit">
+                     </div>
+                </form>
+            
+          
+        </div>
+    </body>
+    <script>
+        const ratings = document.querySelectorAll('.rating input');
+        ratings.forEach(radio => {
+        radio.addEventListener('change', () => {
+            console.log('Selected rating:', radio.value);
+            // You can perform other actions based on the selected rating here
+        });
+        });
+    </script>
+    
+</html>
